@@ -1,0 +1,671 @@
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 10000;
+    box-shadow: 2px 2px 10px rgb(211, 201, 201);
+}
+.container{
+    width: 1250px;
+    margin: auto;
+
+}
+.header_logo {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 360px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(240, 233, 233);
+}
+
+.search input {
+    width: 310px;
+    height: 20px;
+    margin-top: 8px;
+    float: left;
+    border: none;
+    background-color: transparent;
+}
+
+.search i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+.icons {
+    width: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.profile {
+    width: 25px;
+    height: 22px;
+}
+
+.cart {
+    width: 23px;
+    height: 25px;
+}
+
+.menu {
+    height: 40px;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    word-spacing: 30px;
+}
+
+.menu li {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+    display: inline;
+    color: #424242;
+    text-decoration: none;
+}
+.menu a{
+    text-decoration: none;
+    color: gray;
+}
+.menu a:hover{
+    color: #257cb6;
+}
+.landing {
+    width: 100%;
+    height: 540px;
+    background-size: cover;
+    background-image: url(../image/Acrylic-LandingPage.webp);
+}
+.buttons {
+    display: flex;
+}
+
+.home {
+    margin-top: 123px;
+}
+
+.home a {
+    text-decoration: none;
+    color: #898484;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.buttons img {
+    width: 25px;
+    height: 25px;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+.acrylic_wall_print {
+    margin-top: 125px;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c678f;
+}
+
+
+.landing h5 {
+    width: 600px;
+    font-size: 65px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.landing p {
+    width: 440px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.landing button {
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    font-size: 17px;
+    font-weight: 500;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+    border: none;
+}
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.precision_printing {
+    width: 280px;
+    height: 210px;
+    margin: 0px 10px;
+    background-color : #e5e5e5;
+    border-radius: 15px;
+}
+
+.precision_printing_lable {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #257cb6;
+}
+
+.precision_printing_lable img {
+    width: 25px;
+    height: 25px;
+}
+
+.precision_printing_text {
+    margin: 20px;
+}
+
+.precision_printing_text h5 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: 600;
+    margin: 10px 10px 10px 0px;
+}
+
+.precision_printing_text p {
+    font-size: 15px;
+    line-height: 20px;
+    font-family:  sans-serif;
+}
+
+.quality_build {
+    width: 280px;
+    height: 210px;
+    margin: 0px 10px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+}
+
+.quality_build_lable {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #257cb6;
+}
+
+.quality_build_lable img {
+    width: 25px;
+    height: 25px;
+}
+
+.quality_build_text {
+    margin: 20px;
+}
+
+.quality_build_text h5 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: 600;
+    margin: 10px 10px 10px 0px;
+}
+
+.quality_build_text p {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.ready_to_hang {
+    width: 280px;
+    height: 210px;
+    margin: 0px 10px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    /* float: left; */
+}
+
+.ready_to_hang_lable {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #257cb6;
+}
+
+.ready_to_hang_lable img {
+    width: 25px;
+    height: 25px;
+}
+
+.ready_to_hang_text {
+    margin: 20px;
+}
+
+.ready_to_hang_text h5 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-family: 600;
+    margin: 10px 10px 10px 0px;
+}
+
+.ready_to_hang_text p {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.durable_and_lightweight {
+    width: 280px;
+    height: 210px;
+    margin: 0px 10px;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+}
+
+.durable_lable {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #257cb6;
+}
+
+.durable_lable img {
+    width: 25px;
+    height: 25px;
+}
+
+.durable_text {
+    margin: 20px;
+}
+
+.durable_text h5 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: 10px 10px 10px 0px;
+}
+
+.durable_text p {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+/* Acrylic Container 1 */
+
+.acrylic_container{
+    margin-top: 100px;
+    height: auto;
+}
+.acrylic_prints{
+    display: flex;
+    align-content: space-around;
+}
+.acrylic_prints_image{
+    width: 50%;
+}
+.acrylic_prints_image img{
+    width: 600px;
+    height: auto;
+}
+.acrylic_prints_text{
+    width: 50%;
+}
+.acrylic_prints_text_heading{
+    margin-top: 80px;
+    font-size: 45px;
+}
+.acrylic_prints_text_paragraph{
+    width: 600px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.acrylic_prints_button button{
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+}
+
+/* Acrylic Container 2 */
+
+.acrylic_container2{
+    margin-top: 100px;
+    height: auto;
+}
+.acrylic_prints2{
+    display: flex;
+    align-content: space-around;
+}
+.acrylic_prints_text2{
+    width: 50%;
+    margin-left: 20px;
+}
+.acrylic_prints_text_heading2{
+    margin-top: 80px;
+    font-size: 45px;
+}
+.acrylic_prints_text_paragraph2{
+    width: 600px;
+    margin-top: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.acrylic_prints_image2{
+    width: 50%;
+}
+.acrylic_prints_image2 img{
+    width: 600px;
+    height: auto;
+}
+
+.heading {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.heading p {
+    font-size: 50px;
+}
+
+.photo {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.Acrylic{
+    width: 300px;
+    height: 300px;
+}
+.Acrylic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.Acrylic1 {
+    width: 280px;
+    text-align: center;
+    margin-top: -40px;
+    padding: 3px 10px;
+    position: absolute;
+    opacity: 0;
+}
+
+.Acrylic1 button {
+    width: 150px;
+    height: 25px;
+    background-color: bisque;
+    border-radius: 15px;
+    border: none;
+}
+
+.Acrylic1 a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 15px;
+    font-weight: 600px;
+    padding: 3px 20px;
+}
+
+.Acrylic:hover .Acrylic1 {
+    opacity: 1;
+}
+
+.canvas{
+    width: 300px;
+    height: 300px;
+}
+.canvas img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.canvas1 {
+    width: 300px;
+    text-align: center;
+    margin-top: -40px;
+    opacity: 0;
+}
+
+.canvas1 button {
+    width: 100px;
+    height: 25px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: none;
+}
+
+.canvas1 a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 600;
+    padding: 3px 20px;
+}
+
+.canvas:hover .canvas1 {
+    opacity: 1;
+}
+
+.puzzles{
+    width: 300px;
+    height: 300px;
+}
+.puzzles img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.puzzles1 {
+    width: 300px;
+    text-align: center;
+    margin-top: -40px;
+    opacity: 0;
+}
+
+.puzzles1 button {
+    width: 100px;
+    height: 25px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: none;
+}
+
+.puzzles1 a {
+    text-decoration: none;
+    padding: 3px 20px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.puzzles:hover .puzzles1 {
+    opacity: 1;
+}
+
+.Glass_product{
+    width: 300px;
+    height: 300px;
+}
+.Glass_product img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.Glass_product1 {
+    width: 300px;
+    text-align: center;
+    margin-top: -40px;
+    opacity: 0;
+}
+
+.Glass_product1 button {
+    width: 150px;
+    height: 25px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    border: none;
+}
+
+.Glass_product1 a {
+    text-decoration: none;
+    padding: 3px 20px;
+    font-size: 15px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.Glass_product:hover .Glass_product1 {
+    opacity: 1;
+}
+.blog_arrow {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+#arrow {
+    margin-right: 20px;
+    transform: rotate(180deg);
+}
+
+.blog_arrow img {
+    background-color: lightcyan;
+    padding: 5px 10px;
+    border-radius: 60px;
+}
+.Footer{
+    width: 100%;
+    height: 350px;
+    background-color: black;
+}
+.footer-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.light-logo{
+    width: 306px;
+    height: 20px;
+    margin-top: 50px;
+}
+.light-logo img{
+    width: 306px;
+    height: 20px;
+}
+.footer-content p{
+    width: 350px;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.social-media{
+    margin-top: 40px;
+}
+.social-media a{
+    margin-left: 20px;
+}
+.footer-content h4{
+    color: white;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.footer-content a, li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.footer-content ul{
+    font-family: sans-serif;
+}
+.footer-content a:hover{
+    color: #2c678f;
+}
+.legal{
+    margin-right: 30px;
+}
+.copy-right-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.copy p{
+    width: 350px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.cards{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+.cards img{
+    width: 42px;
+    height: 28px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-left: 5px;
+}
